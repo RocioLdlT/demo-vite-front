@@ -1,4 +1,9 @@
-import { footer } from "./core/components/footer-funcional/footer"
+import { App } from "./core/components/app/app.wc"
+import { HomePage } from "./home/home-page"
 
 console.log('Load main')
-footer()
+
+App.render()
+HomePage.render()
+
+
